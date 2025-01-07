@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>count_app</title>
+</head>
+<body>
+    <fieldset style="height: 250px;width: 250px; background-color: rgb(172, 234, 210);box-shadow: 5px 5px 10px;">
+        <legend><h1 style="color: rgb(55, 6, 101);background-color: rgb(189, 201, 212);">COUNT APP</h1></legend>
+    
+    <h2 id="num" style="font-size: 50px;color: rgb(44, 5, 198);">0</h2>
+    <button style="color: rgb(17, 138, 19);" onclick="increment()">Increment +</button>
+    <button style="color: rgb(216, 65, 10);" onclick="decrement()">Decrement -</button>
+    <button style="color: rgb(59, 12, 247);"onclick="reset()">Reset</button>
+    <script>
+        let num=0;
+        function increment(){
+          num+=1
+          document.getElementById("num").innerHTML=num;
+          console.log(x)
+        }
+        function decrement(){
+            num-=1
+          document.getElementById("num").innerHTML=num;
+          console.log(x)
+        }
+        
+        function reset(){
+            num=0
+          document.getElementById("num").innerHTML=num;
+          console.log(x)
+        }
+    </script>
+    </fieldset>
+</body>
+</html>
+
+
+
+
+
